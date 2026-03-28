@@ -1,14 +1,14 @@
 import Navbar from "./components/navbar";
+import About from "./components/sections/about";
 import Hero from "./components/sections/hero";
-import SectionTitle from "./components/sectionTitle";
 
 function App() {
   return (
-    <div className="flex flex-col h-full gap-28 justify-center items-center">
+    <div className="flex flex-col h-full gap-40 justify-center items-center">
       <Navbar />
       <Hero />
+      <About />
       <br />
-      <SectionTitle title={"sobre"} />
     </div>
   );
 }

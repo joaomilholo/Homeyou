@@ -6,8 +6,9 @@ export default function Hero() {
         <h1 className="font-[Playfair] text-7xl font-medium">
           Faça da <i>your home</i> um paraíso
         </h1>
-        <p className="font-normal text-[32px]">
-          Encontre uma variedade de propriedades que combinem com você. <br />{" "}
+        <p className="font-normal text-3xl">
+          Encontre uma variedade de propriedades que combinam com você.
+          <br />
           Esqueça todas as dificuldades em encontrar uma residência.
         </p>
       </div>
