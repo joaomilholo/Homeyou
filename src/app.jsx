@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar";
 import Hero from "./components/sections/hero";
+import SectionTitle from "./components/sectionTitle";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Navbar />
       <Hero />
       <br />
+      <SectionTitle title={"sobre"} />
     </div>
   );
 }
